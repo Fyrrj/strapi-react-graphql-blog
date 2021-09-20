@@ -14,6 +14,10 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "reviews": {
+      "via": "categories",
+      "collection": "review"
     }
   }
 }
